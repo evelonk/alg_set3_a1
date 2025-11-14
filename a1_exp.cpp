@@ -35,9 +35,8 @@ int main() {
                  {1.5, 2.0, (sqrt(5.0) / 2.0) * (sqrt(5.0) / 2.0)},
                  {2.0, 1.5, (sqrt(5.0) / 2.0) * (sqrt(5.0) / 2.0)}};
   double S_exact = 0.25 * M_PI + 1.25 * asin(0.8) - 1.0;
-  double xn1 = 1.0, xn2 = 2.0;
-  double yn1 = 1.0, yn2 = 2.0;
-
+  double xn1 = 0.7, xn2 = 2.2;
+  double yn1 = 0.7, yn2 = 2.2;
   double xw1 = 0.0, xw2 = 3.2;
   double yw1 = 0.0, yw2 = 3.2;
   std::mt19937_64 rng(123456789);
